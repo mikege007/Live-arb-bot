@@ -1,0 +1,15 @@
+Laggy bookies (or maybe oddsAssist lags)
+-Kutt
+-Bovada
+
+
+Useful odds scrapers/APIs:
+-OddsAssist
+-Oddsjam (collaborates with bookies!)
+
+| Approach                     | Latency    | Legal / ToS risk | Cost       | Difficulty  |
+| ---------------------------- | ---------- | ---------------- | ---------- | ----------- |
+| TheOddsAPI / SportsData.io   | 1–5 s      | ✅ Safe           | Low–medium | Easy        |
+| Genius / LSports feed        | 100–500 ms | ✅ Safe           | High       | Medium      |
+| Headless scraper             | 5–15 s     | ⚠️ Risky         | Low        | Medium–hard |
+| Custom reverse-engineered WS | < 1 s      | ❌ ToS-breaking   | Free       | Hard        |
